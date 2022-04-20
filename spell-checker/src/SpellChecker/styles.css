@@ -1,0 +1,38 @@
+.wrong {
+    border-bottom: 2px solid green;
+}
+
+.main {
+    height: 80vh;
+    width: 80vh;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 20px;
+    margin: auto;
+    width: 60%;
+}
+
+.showList {
+    display: block;
+    position: absolute;
+    border: 1px solid black;
+    z-index: 10;
+    list-style: none;
+    background-color: #2a9c75;
+    padding: 0;
+    font-weight: 500;
+    border-radius: 4px;
+}
+
+.showList > li {
+    padding: 10px 30px;
+    border-radius: 4px;
+}
+
+.showList :hover {
+    background-color: white;
+}
+
+.hideList {
+    display: none;
+}
